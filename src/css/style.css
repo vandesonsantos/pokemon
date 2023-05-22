@@ -1,0 +1,75 @@
+body{
+    background-image: url("../image/background-day.png");
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.night-mode{
+    background-image: url("../image/background-nigth.jpg");
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
+.header{
+    /* background-color: blueviolet; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+    padding: 0 100px;
+}
+
+.header .btn-change-theme{
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.header .logo-pokeball, .header .image-sun{
+    width: 35px;
+    height: 35px;
+    transition: 0.1s all ease-in-out;
+}
+
+.header .logo-pokeball:hover, .header .image-sun:hover{
+    transform: scale(1.2);
+}
+
+.pokemon-grande{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.list-pokemon{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    flex-wrap: wrap;
+    width: 420px;
+    height: 320px;
+}
+
+.list-pokemon .pokemon{
+    background-color: #ffff0071;
+    width: 100px;
+    height: 100px;
+}
+
+.list-pokemon .pokemon img{
+    width: 100%;
+    /* height: 100%; */
+}
+
+.list-pokemon .selected-player-1{
+    border: 2px solid rgb(224, 5, 5);
+}
+
+.list-pokemon .selected-player-2{
+    border: 2px solid beige;
+}

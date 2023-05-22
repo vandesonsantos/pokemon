@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokémon</title>
+
+    <link rel="shortcut icon" href="./src/image/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="./src/css/reset.css">
+</head>
+<body>
+    <header class="header">
+        <img src="./src/image/pokeball.png" alt="Logo Pokebola" class="logo-pokeball">
+
+        <button class="btn-change-theme" id="btn-change-theme">
+            <img src="./src/image/sun.png" alt="Sol" class="image-sun">
+        </button>
+    </header>
+
+    <main>
+        <div class="pokemon-grande">
+            <img src="./src/image/charizard.png" alt="Jogador 1" id="image-player-1">
+
+            <div>
+                <span id="nome-jogador-1">Charizard</span>
+            </div>
+        </div>
+
+        <ul class="list-pokemon">
+            <li class="pokemon selected-player-1" id="charizard" data-name="Charizard">
+                <img src="./src/image/charizard.png" alt="Charizard">
+            </li>
+
+            <li class="pokemon" id="electabuszz" data-name="Electabuszz">
+                <img src="./src/image/electabuszz.png" alt="Electabuszz">
+            </li>
+
+            <li class="pokemon" id="primeap" data-name="Primeap">
+                <img src="./src/image/primeap.png" alt="Primeap">
+            </li>
+
+            <li class="pokemon" id="machoke" data-name="Machoke">
+                <img src="./src/image/machoke.png" alt="Machoke">
+            </li>
+
+            <li class="pokemon" id="marowak" data-name="Marowak">
+                <img src="./src/image/marowak.png" alt="Marowak">
+            </li>
+
+            <li class="pokemon" id="meowth" data-name="Meowth">
+                <img src="./src/image/meowth.png" alt="Meowth">
+            </li>
+
+            <li class="pokemon" id="snorlax" data-name="Snorlax">
+                <img src="./src/image/snorlax.png" alt="Snorlax">
+            </li>
+
+            <li class="pokemon" id="kadabra" data-name="Kadabra">
+                <img src="./src/image/kadabra.png" alt="Kadabra">
+            </li>
+
+            <li class="pokemon" id="hitmonchan" data-name="Hitmonchan">
+                <img src="./src/image/hitmonchan.png" alt="Hitmonchan">
+            </li>
+
+            <li class="pokemon" id="magmar" data-name="Magmar">
+                <img src="./src/image/magmar.png" alt="Magmar">
+            </li>
+
+            <li class="pokemon" id="pikachu" data-name="Pikachu">
+                <img src="./src/image/pikachu.png" alt="Pikachu">
+            </li>
+
+            <li class="pokemon selected-player-2" id="mewtwo" data-name="Mewtwo">
+                <img src="./src/image/mewtwo.png" alt="Mewtwo">
+            </li>
+        </ul>
+
+        <div class="pokemon-grande">
+            <img src="./src/image/mewtwo.png" alt="Jogador 2">
+
+            <div>
+                <span>Mewtwo</span>
+            </div>
+        </div>
+    </main>
+
+    <script src="./src/javascript/index.js"></script>
+
+</body>
+</html>
